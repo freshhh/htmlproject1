@@ -1,0 +1,60 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+nav{
+    background: cornflowerblue;
+    
+    width: 99%;
+    margin-top: 0px;
+    padding: auto;
+    border-color: blueviolet;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-left: .35%;
+    margin-top: 0.3%;
+}
+.nav-ul{
+    
+    
+    
+}
+.nav-li{
+    list-style: none;
+    display: inline;
+    padding-left: 6px;
+    margin-top: 0;
+    
+   
+   
+}
+
+.brand{
+    text-decoration: none;
+    float: left;
+    font-family: fantasy;
+    font-size: 30px;
+    margin: 0;
+    line-height: 0.5;
+    color: antiquewhite;
+}
+.brand:hover{color:aliceblue}
+.left-nav{
+    float: right;
+    text-decoration: none;
+    padding-left: 14px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+    line-height: 0.08;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    
+}
+.left-nav:hover{color:white;
+background-color: black;
+}
