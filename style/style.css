@@ -1,0 +1,66 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+nav{
+    background: cornflowerblue;
+    
+    width: 100%;
+    margin-top: 0px;
+    padding: auto;
+    border-color: blueviolet;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-left: .35%;
+    margin-top: 0.3%;
+}
+.nav-ul{
+    
+    
+    
+}
+.nav-li{
+    list-style: none;
+    display: inline;
+    padding-left: 7px;
+    margin-top: 0;
+    
+   
+   
+}
+
+.brand{
+    text-decoration: none;
+    float: left;
+    font-family: unset;
+    font-size: 38px;
+    margin: 0;
+    line-height: 0.5;
+    color:  #C71585;
+}
+.brand:hover{color:white}
+.left-nav{
+    float: right;
+    text-decoration: none;
+    padding-left: 14px;
+    padding-right: 10px;
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    line-height: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    
+}
+.left-nav:hover{color:black;
+background-color: white;
+
+}
+
+.post{
+    max-width: ;
+    max-height: 
+}
