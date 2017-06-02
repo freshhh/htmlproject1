@@ -120,7 +120,7 @@ div.land-div {
 
 
 
-   @media only screen and (max-width: 520px) {
+   @media only screen and (max-width: 720px) {
 
     ul li a span{
         display: none;
