@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: white;
+    background-color: #888590;
 }
 
 nav{
@@ -87,13 +87,15 @@ div.land-div {
     background-position: center;
     background-size: cover;
     width: 99.995%;
-    height: 500px;
-    max-width: 100%
-    max-height: 400px;
+    height: 700px;
+    max-width: 100%;
     text-align: center;
     padding-top: 10px;
     opacity: 0.75;
     margin: 0.5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
 }
 
 #trans-btn{
@@ -113,10 +115,9 @@ div.land-div {
     }
 
  .land-p {
-    padding-bottom: 2px;
-    margin-bottom: 0;
-    font-size: 130px;
-    color:white;
+     text-align: center;
+      font-size: 80px;
+        vertical-align: center;
    } 
 
    .icon{
@@ -124,6 +125,7 @@ div.land-div {
    }
 
    @media only screen and (max-width: 790px) {
+
 
    .nav-ul :not(:first-child){
     display: none;
@@ -145,3 +147,52 @@ div.land-div {
    }
 
    }
+
+   @media only screen and (max-width: 390px;){
+        .land-p{
+            font-size: 50px;
+        }
+
+   }
+
+.footer{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    border-top: solid 3px white;
+    margin-bottom: 0px;
+}
+
+.github-icon{
+    font-size: 50px;
+    padding-right: 35px; 
+    color: black;
+}
+.codepen-icon{
+    font-size: 50px;
+     color: black;
+}
+button{
+    background-color: transparent;
+    border: 0px;
+}
+
+.div-2{
+   padding-top: 10px;
+    opacity: 0.75;
+    margin: 2px;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/cloudy.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.footer-p{
+    font-size: 15px;
+    padding: 2px;
+    margin-bottom: 0px;
+}
